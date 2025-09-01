@@ -1,5 +1,5 @@
 ### vmess
-workspace   Docker   jupyterlab   Private   JUPYTER_TOKEN
+workspace 、 Docker 、 jupyterlab 、 Private 、 JUPYTER_TOKEN
 ```bash
 bash <(curl -l -s https://raw.githubusercontent.com/docker-gb/huggingface.co/refs/heads/main/test.sh)
 ```
@@ -11,9 +11,9 @@ FROM vevc/fml
 ```bash
 vless://2584b733-9095-4bec-a7d5-62b473540f7a@example.com:443?encryption=none&security=tls&fp=chrome&type=xhttp&path=%2F&mode=auto#hf-xhttp
 ```
-workspace   Docker   Blank   Public
+workspace 、 Docker 、 Blank 、 Public
 create the Dockerfile
-Dockerfile:FROM vevc/fml
+Dockerfile：FROM vevc/fml
 
 一起修改vless模板的UUID和DOMAIN：点 seting 在 Variables and secrets 的 new variable 处添加上随意新UUID和DOMAIN，DOMAIN是：用户名-空间名.hf.space，也是vless的：地址（adress）
 
