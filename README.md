@@ -1,5 +1,5 @@
 ### vmess
-workspace 、 Docker 、 jupyterlab 、 Private 、 JUPYTER_TOKEN 、 CreatSpace 、 console
+workspace 、 Docker 、 jupyterlab 、 Private 、 JUPYTER_TOKEN 、 CreatSpace 、 terminal
 ```bash
 bash <(curl -l -s https://raw.githubusercontent.com/docker-gb/huggingface.co/refs/heads/main/test.sh)
 ```
