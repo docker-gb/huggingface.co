@@ -17,6 +17,8 @@ Dockerfile:FROM vevc/fml
 
 修改UUID和DOMAIN：点 seting 在 Variables and secrets 的 new variable 处添加上新UUID和DOMAIN，DOMAIN是：用户名-空间名.hf.space
 
+关于保活：需要每48小时至少有一次流量，使用此vless登入v.com，输入：cat /tmp/keepalive.log，显示400保活成功。
+
 
 
 
