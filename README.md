@@ -22,8 +22,7 @@ vless://2584b733-9095-4bec-a7d5-62b473540f7a@example.com:443?encryption=none&sec
 
 -----------------------------------------------------------------------------------------------------------
 
-<div> sha256:e2ff49ecd0bfe28e0dbd9529ad80bdd5942cd5e271852dc0570279a1a724d6d3 size: 1789<div>
-<div>### 将 Docker 镜像 vevc/fml 改名为 song 并推送到 GitHub 上的 docker-gb 仓库，你可以按照以下步骤操作：<div>
+### <div>将 Docker 镜像 vevc/fml 改名为 song 并推送到 GitHub 上的 docker-gb 仓库，你可以按照以下步骤操作：<div>
 
 <div>🛠️ 步骤一：拉取原始镜像<div>
 <div>docker pull vevc/fml<div>
@@ -38,6 +37,7 @@ vless://2584b733-9095-4bec-a7d5-62b473540f7a@example.com:443?encryption=none&sec
 
 <div>🛠️ 步骤四：推送镜像到 GitHub<div>
 <div>docker push ghcr.io/docker-gb/song:latest<div>
+<div> sha256:e2ff49ecd0bfe28e0dbd9529ad80bdd5942cd5e271852dc0570279a1a724d6d3 size: 1789<div>
 
 <div>这里假设使用的是 GitHub Container Registry（GHCR），镜像地址格式为 ghcr.io/docker-gb/song:last。<div>
 
