@@ -39,7 +39,7 @@ vless://2584b733-9095-4bec-a7d5-62b473540f7a@example.com:443?encryption=none&sec
 <div>docker push ghcr.io/docker-gb/song:latest<div>
 <div> sha256:e2ff49ecd0bfe28e0dbd9529ad80bdd5942cd5e271852dc0570279a1a724d6d3 size: 1789<div>
 
-<div>这里假设使用的是 GitHub Container Registry（GHCR），镜像地址格式为 ghcr.io/docker-gb/song:last。<div>
+<div>镜像地址为： ghcr.io/docker-gb/song:last<div>
 
 
 
