@@ -30,7 +30,7 @@ vless://2584b733-9095-4bec-a7d5-62b473540f7a@example.com:443?encryption=none&sec
 <div>docker tag vevc/fml ghcr.io/docker-gb/song:latest<div>
 
 <div>🛠️ 步骤三：登录 GitHub Container Registry<div>
-<div>你需要在 GitHub 的 Developer Settings → Personal Access Tokens 中创建一个具有 write:packages 权限的 token。<div>
+<div>在 GitHub 的 Developer Settings → Personal Access Tokens 中创建一个具有 write:packages 权限的 token。<div>
 <div>https://github.com/settings/tokens<div>
  
 <div>echo YOUR_GITHUB_TOKEN | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin<div>
